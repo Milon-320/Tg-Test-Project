@@ -1,18 +1,18 @@
 {
   "botInfo": {
-    "name": "ESB BOT",
+    "name": "Milon BOT",
     "prefix": "/",
-    "token": "YOUR_BOT_TOKEN_HERE",
+    "token": "8758400823:AAFmP6Tli01MGtx-E1QXHhcZBzuE8Gkkuw8",
     "timezone": "Asia/Dhaka",
     "usePrefix": true
   },
   "ownerInfo": {
     "owner": {
-      "name": "Owner",
-      "id": "YOUR_TELEGRAM_ID"
+      "name": "MD MIlon Sarkar",
+      "id": "7094723576"
     },
     "botAdmins": [
-      "YOUR_TELEGRAM_ID"
+      "7094723576"
     ]
   },
   "settings": {
