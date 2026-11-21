@@ -1,0 +1,101 @@
+{
+  "botInfo": {
+    "name": "ESB BOT",
+    "prefix": "/",
+    "token": "YOUR_BOT_TOKEN_HERE",
+    "timezone": "Asia/Dhaka",
+    "usePrefix": true
+  },
+  "ownerInfo": {
+    "owner": {
+      "name": "Owner",
+      "id": "YOUR_TELEGRAM_ID"
+    },
+    "botAdmins": [
+      "YOUR_TELEGRAM_ID"
+    ]
+  },
+  "settings": {
+    "prefixModeEnabled": false,
+    "allowCustomPrefix": true,
+    "allowInboxMode": true,
+    "onlyAdmin": false,
+    "onlyAdminMessage": "⚠️ This bot is in admin-only mode. Only admins can use commands.",
+    "disabledCommands": [],
+    "disabledEvents": [],
+    "ignoreOldMessages": {
+      "enabled": true
+    },
+    "showCommandSuggestions": {
+      "enabled": true
+    },
+    "groupApproval": {
+      "enabled": false
+    },
+    "dmApproval": {
+      "enabled": false
+    },
+    "levelSystem": {
+      "enabled": true,
+      "expPerMessage": 5,
+      "expToLevelUp": 100
+    },
+    "adminReactionUnsend": {
+      "enabled": true,
+      "emoji": "👍"
+    },
+    "botStartNotification": {
+      "enabled": false,
+      "sendToAdmins": true,
+      "sendToThreads": false,
+      "threadIds": []
+    },
+    "logLevel": "info",
+    "language": "en",
+    "dmApprovalEnabled": false,
+    "antilinkGlobalEnabled": true,
+    "forceJoin": {
+      "enabled": false,
+      "channelId": "",
+      "channelLink": ""
+    }
+  },
+  "database": {
+    "type": "json",
+    "uriMongodb": "",
+    "path": "./DATABASE/data",
+    "autoSyncWhenStart": false,
+    "autoRefreshThreadInfoFirstTime": true
+  },
+  "dashBoard": {
+    "enable": false,
+    "port": 3000,
+    "passwordProtection": {
+      "enable": false,
+      "password": ""
+    }
+  },
+  "serverUptime": {
+    "enable": false,
+    "port": 3001,
+    "socket": {
+      "enable": true,
+      "channelName": "uptime",
+      "verifyToken": "badolbotkey"
+    }
+  },
+  "autoUptime": {
+    "enable": true,
+    "url": "",
+    "timeInterval": 240
+  },
+  "githubSync": {
+    "enable": false,
+    "token": "",
+    "owner": "",
+    "repo": "",
+    "branch": "",
+    "folder": "",
+    "pushIntervalSec": 120
+  }
+}
